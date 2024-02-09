@@ -1,0 +1,71 @@
+{
+    "shared": false,
+    "params": {
+        "pmcsCount": 3333,
+        "name": "Mariek Augite ",
+        "dataBucket": "prodstack-persistencepixlisedata4f446ecf-m36oehuca7uc",
+        "datasetPath": "Datasets/168624645/dataset.bin",
+        "datasetID": "168624645",
+        "jobBucket": "prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo",
+        "detectorConfig": "PIXL/PiquantConfigs/v7",
+        "elements": [
+            "Na",
+            "Mg",
+            "Al",
+            "Si",
+            "P",
+            "S",
+            "Cl",
+            "K",
+            "Ca",
+            "Ti",
+            "Cr",
+            "Mn",
+            "Fe",
+            "Ni"
+        ],
+        "parameters": "",
+        "runTimeSec": 60,
+        "coresPerNode": 4,
+        "startUnixTime": 1661276399,
+        "creator": {
+            "name": "mschmidt2",
+            "user_id": "6099acd449cdbd006b849324",
+            "email": "mschmidt2@brocku.ca"
+        },
+        "roiID": "",
+        "elementSetID": "",
+        "piquantVersion": "registry.gitlab.com/pixlise/piquant/runner:3.2.10",
+        "quantMode": "ABBulk",
+        "comments": "",
+        "roiIDs": [
+            "qtctjdcsejxeczo8"
+        ],
+        "includeDwells": true
+    },
+    "elements": [
+        "Na2O",
+        "MgO",
+        "Al2O3",
+        "SiO2",
+        "P2O5",
+        "SO3",
+        "Cl",
+        "K2O",
+        "CaO",
+        "TiO2",
+        "Cr2O3",
+        "MnO",
+        "FeO-T",
+        "NiO"
+    ],
+    "jobId": "lilfl9xne95ytz9i",
+    "status": "complete",
+    "message": "Nodes ran: 1",
+    "endUnixTime": 1661276471,
+    "outputFilePath": "UserContent/6099acd449cdbd006b849324/168624645/Quantifications",
+    "piquantLogList": [
+        "node00001_piquant.log",
+        "node00001_stdout.log"
+    ]
+}

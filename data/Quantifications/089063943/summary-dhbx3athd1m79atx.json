@@ -1,0 +1,67 @@
+{
+    "shared": false,
+    "params": {
+        "pmcsCount": 56,
+        "name": "Carbonates",
+        "dataBucket": "prodstack-persistencepixlisedata4f446ecf-m36oehuca7uc",
+        "datasetPath": "Datasets/089063943/dataset.bin",
+        "datasetID": "089063943",
+        "jobBucket": "prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo",
+        "detectorConfig": "PIXL/PiquantConfigs/v7",
+        "elements": [
+            "CO3",
+            "Na",
+            "Mg",
+            "Al",
+            "Si",
+            "S",
+            "Cl",
+            "K",
+            "Ca",
+            "Ti",
+            "Cr",
+            "Mn",
+            "Fe"
+        ],
+        "parameters": "-e,-19,7.87",
+        "runTimeSec": 60,
+        "coresPerNode": 4,
+        "startUnixTime": 1646103619,
+        "creator": {
+            "name": "tice",
+            "user_id": "5df311ed8a0b5d0ebf5fb476",
+            "email": "tice@geo.tamu.edu"
+        },
+        "roiID": "shared-4vjrtd1gn2j1abia",
+        "elementSetID": "",
+        "piquantVersion": "registry.gitlab.com/pixlise/piquant/runner:3.2.8",
+        "quantMode": "Combined",
+        "comments": "",
+        "roiIDs": []
+    },
+    "elements": [
+        "Na2O",
+        "MgCO3",
+        "Al2O3",
+        "SiO2",
+        "SO3",
+        "Cl",
+        "K2O",
+        "CaCO3",
+        "TiO2",
+        "Cr2O3",
+        "MnCO3",
+        "FeCO3-T"
+    ],
+    "jobId": "dhbx3athd1m79atx",
+    "status": "complete",
+    "message": "Nodes ran: 2",
+    "endUnixTime": 1646103776,
+    "outputFilePath": "UserContent/5df311ed8a0b5d0ebf5fb476/089063943/Quantifications",
+    "piquantLogList": [
+        "node00001_piquant.log",
+        "node00001_stdout.log",
+        "node00002_piquant.log",
+        "node00002_stdout.log"
+    ]
+}

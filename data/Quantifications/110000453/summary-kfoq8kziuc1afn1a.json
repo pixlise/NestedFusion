@@ -1,0 +1,48 @@
+{
+    "shared": false,
+    "params": {
+        "pmcsCount": 127,
+        "name": "Baseline",
+        "dataBucket": "prodstack-persistencepixlisedata4f446ecf-m36oehuca7uc",
+        "datasetPath": "Datasets/110000453/dataset.bin",
+        "datasetID": "110000453",
+        "jobBucket": "prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo",
+        "detectorConfig": "PIXL-EM-E2E",
+        "elements": [
+            "Fe",
+            "Mn",
+            "Ti",
+            "Ca",
+            "K",
+            "Mg",
+            "Al",
+            "Si",
+            "S"
+        ],
+        "parameters": "",
+        "runTimeSec": 60,
+        "coresPerNode": 4,
+        "startUnixTime": 1613093509,
+        "creator": {
+            "name": "sd",
+            "user_id": "5df31aef08f9630ec08ada4e"
+        },
+        "roiID": "",
+        "elementSetID": ""
+    },
+    "jobId": "kfoq8kziuc1afn1a",
+    "status": "complete",
+    "message": "Nodes ran: 4",
+    "endUnixTime": 1613093643,
+    "outputFilePath": "UserContent/5df31aef08f9630ec08ada4e/110000453/Quantifications",
+    "piquantLogList": [
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00001.pmcs_piquant.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=deb940c4ee24f7754c4df4643850746798f45b73449e42783896e50143fe4915",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00001.pmcs_stdout.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=963c70c9c2588aacb150de137e15124742b10137c3776fe6cd8ae0cc74b1261a",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00002.pmcs_piquant.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=7b808956db42ad995bb372f459fdd8120128ae6967d11064e43b59c579c3585c",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00002.pmcs_stdout.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=09e0ba9a2e0c900dbab2e094624681909d25732f90d1f33170b0062fa0a0e831",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00003.pmcs_piquant.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=95a70f5be313be309ba65ca1b9c445095966ba15727c6bd8ab49955c8dfa8672",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00003.pmcs_stdout.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=9a39dc019b9b679fd82bf4867e04cde451aabb1dab6a5cdf96158bfdf77615dc",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00004.pmcs_piquant.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=08905e028ccf030aefc0f1c03c0c956477ec72e84e071c189d8b7846485dee9b",
+        "https://prodstack-persistencepiquantjobs65c7175e-12qccz2o7aimo.s3.us-east-1.amazonaws.com/Jobs/110000453/kfoq8kziuc1afn1a/piquant-logs/node00004.pmcs_stdout.log?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA6AOWGDOHM736FGHQ%2F20210212%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20210212T013403Z\u0026X-Amz-Expires=111600\u0026X-Amz-SignedHeaders=host\u0026response-cache-control=no-cache\u0026X-Amz-Signature=371678cb8c370a343627968fb54c2b1053696647067eeaff90f3adc6aa56ffea"
+    ]
+}
