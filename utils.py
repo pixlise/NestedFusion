@@ -309,6 +309,20 @@ def load_quant_dataframe(aggregated=True, ratios=True):
 
     return quant_df
 
+def load_roi_dataframe():
+    if not os.path.isdir(base_path+'/data'):
+            print('Data directory not found! Run with `-r` to reload data directory')
+            return    
+    rois=[]
+    dataset_paths = [path for path in os.listdir(base_path+"/data/ROI/")]
+    for i in tqdm(range(len(dataset_paths)),leave=False,desc="Loading ROI Files"):
+      with open(base_path+f'/data/ROI/{dataset_paths[i]}/ROI.json', mode='rb') as f:
+        dataset_rois = json.load(f)    
+        for k in dataset_rois:
+            rois.append({**{'roi_key':k,'dataset':dataset_paths[i]},**dataset_rois[k]})
+    
+    return pd.DataFrame(rois)
+
 def insert_quant_ratios(quant):
     ratio_quant = quant.copy()
     for k1 in quant:
